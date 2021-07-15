@@ -18,13 +18,13 @@ const mouse = {
     y:undefined
 }
 
-// window.addEventListener('click',function(event) { 
-//     mouse.x = event.x; 
-//     mouse.y = event.y; 
-//     for (let i=0;i<15;i++) { 
-//         particleArray.push(new Particle()); 
-//     }
-// })
+window.addEventListener('click',function(event) { 
+    mouse.x = event.x; 
+    mouse.y = event.y; 
+    for (let i=0;i<15;i++) { 
+        particleArray.push(new Particle()); 
+    }
+})
 
 window.addEventListener('mousemove', function(event) { 
     mouse.x = event.x; 
